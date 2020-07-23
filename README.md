@@ -7,7 +7,7 @@ There are two files:
 - test.py: This file loads the saved generator model and generates some fake samples and save them with the name fake.png
 
 ## Dataset
-Download the dataset and put all the images in this folder.<br/>
+Download the dataset and put all the images in the data folder.<br/>
 Link: [https://www.kaggle.com/soumikrakshit/anime-faces](https://www.kaggle.com/soumikrakshit/anime-faces)
 
 ## Training samples
