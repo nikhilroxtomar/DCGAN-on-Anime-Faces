@@ -18,3 +18,4 @@ There are two files:
 
 ## Fake samples generated after training
 | ![Fake sample](fake.png) |
+|:--:| 
