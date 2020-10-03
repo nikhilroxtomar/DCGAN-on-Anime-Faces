@@ -3,6 +3,8 @@
 The respository contains the code for the Deep Convolutional Generative Adversarial Network (DCGAN) trained on the anime faces dataset.  
   
 Blog post: https://idiotdeveloper.com/dcgan-implementing-deep-convolutional-generative-adversarial-network-in-tensorflow/
+<br/>
+Video explaination: [https://youtu.be/rJBp2L-JM_g](https://youtu.be/rJBp2L-JM_g)
   
 There are two files:
 - gan.py: It is used to train the DCGAN on the anime faces dataset.
