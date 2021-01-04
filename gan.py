@@ -12,7 +12,7 @@ from tensorflow.keras.optimizers import Adam
 
 IMG_H = 64
 IMG_W = 64
-IMG_C = 3
+IMG_C = 3  ## Change this to 1 for grayscale.
 w_init = tf.keras.initializers.RandomNormal(mean=0.0, stddev=0.02)
 
 def load_image(image_path):
@@ -84,7 +84,7 @@ def build_generator(latent_dim):
         )
 
     x = conv_block(x,
-        num_filters=3,
+        num_filters=3,  ## Change this to 1 for grayscale.
         kernel_size=5,
         strides=1,
         activation=False
