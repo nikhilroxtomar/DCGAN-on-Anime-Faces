@@ -164,7 +164,7 @@ def save_plot(examples, epoch, n):
     for i in range(n * n):
         pyplot.subplot(n, n, i+1)
         pyplot.axis("off")
-        pyplot.imshow(examples[i])
+        pyplot.imshow(examples[i])  ## pyplot.imshow(np.squeeze(examples[i], axis=-1))
     filename = f"samples/generated_plot_epoch-{epoch+1}.png"
     pyplot.savefig(filename)
     pyplot.close()
